@@ -1,0 +1,32 @@
+div {
+    border: 1px solid #000;
+}
+/* 一楼样式 */
+
+.f1>.container {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.f1>.container>.banner {
+    margin: 40px auto 0;
+    border: 10px solid #000;
+    width: 80%;
+}
+/* 二楼样式 */
+em {
+    font-style: normal;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.f2 {
+    margin-top: 30px;
+}
+.f2>.container {
+    padding-top:20px ;
+    display: flex;
+}

@@ -1,0 +1,83 @@
+.f1 {
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+.f1 > .container {
+  width: 1200px;
+  padding-left: 35%;
+}
+.user {
+  padding-top: 15px;
+}
+span {
+  font-size: 24px;
+}
+label {
+  display: block;
+  font-size: 13px;
+  padding-bottom: 3px;
+}
+.ru,
+.ma,
+.sh,
+.rz {
+  width: 450px;
+  height: 35px;
+  border: 1px solid #e5e5e5;
+  outline: 0;
+  padding: 0 1.5em;
+}
+.f1 > .container > .pwd,
+.phone {
+  padding-top: 20px;
+}
+button {
+  width: 492px;
+  height: 40px;
+}
+.mi,
+.repwd {
+  padding-top: 20px;
+}
+button {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid white;
+}
+button:hover {
+  transition: all 0.7s;
+  background-color: #000;
+}
+.aa {
+  padding-top: 10px;
+  display: flex;
+}
+.aa > .p {
+  font-size: 13px;
+  margin-left: 380px;
+  margin-top: 2px;
+  text-decoration: none;
+  color: #000;
+}
+.p:hover {
+  color: red;
+  cursor: pointer;
+}
+.dd {
+  margin-left: -1px;
+  outline: none;
+}
+.foot {
+  padding-top: 30px;
+}
+.btn2 {
+  background-color: #000;
+}
+.btn2:hover {
+  transition: all 0.7s;
+  background-color: red;
+}

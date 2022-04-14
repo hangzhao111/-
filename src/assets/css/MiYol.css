@@ -1,0 +1,174 @@
+em {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  padding-right: 10px;
+}
+
+a:hover {
+  color: red;
+}
+
+.f11 {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.f1 {
+  display: flex;
+  border-bottom: 4px solid #000;
+  justify-content: flex-end;
+  position: relative;
+  width: 1200px;
+  margin-right: 60px;
+  height: 50px;
+  align-items: center;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  font-size: 26px;
+  align-items: center;
+}
+
+.right {
+  justify-content: center;
+}
+
+.f2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+button {
+  border: 1px solid #000;
+  background-color: white;
+  border-bottom: 3px solid #000;
+  margin-right: 20px;
+  height: 40px;
+  width: 110px;
+}
+
+.btn2 {
+  background-color: red;
+}
+
+.btn1:hover,
+.btn3:hover {
+  background-color: red;
+  transition: all .3s;
+}
+
+.f3 {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.f3>.container {
+  display: flex;
+  flex-wrap: wrap;
+  bottom: 100px;
+  width: 1200px;
+  justify-content: center;
+}
+
+.c1 {
+  width: 210px;
+  margin-bottom: 100px;
+  height: 220px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(128, 128, 128, .1);
+  /* align-items: center; */
+  text-align: center;
+
+}
+
+#tuPian{
+  width: 250px;
+  height: 250px;
+  /* line-height: 250px; */
+  text-align: center;
+  /* margin-top: 10px; */
+  /* padding-top: 10px; */
+}
+
+.cc10 {
+  width: 150px;
+  height: 70px;
+  position: absolute;
+  top: 210px;
+  text-align: center;
+  padding: 10px;
+}
+
+img {
+  display: inline-block;
+  margin: auto 0;
+  height: 70%;
+  padding-top: 25px;
+}
+
+img:hover {
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
+
+em {
+  color: rgb(128, 128, 128)
+}
+
+.red:hover {
+  color: red;
+}
+
+.red {
+  padding-top: 20px;
+}
+
+.red1 {
+  color: red;
+}
+
+.f4 {
+  display: flex;
+  justify-content: center;
+}
+ #page {
+  user-select: none;
+  background-color: white;
+  padding: 10px;
+}
+#page>span {
+  display: inline-block;
+  border: 1px solid gray;
+  line-height: 26px;
+  margin-left: 5px;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+#page>span:hover {
+  color: #36d;
+  border-color: #36d;
+}
+ /* 当前项样式  */
+ #page>.cur {
+    pointer-events: none;
+    border-color: #36d;
+    color: white;
+    background-color: #36d;  
+} 
+#page>.disabled {
+  pointer-events:none;
+  border-color:lightgray;
+  color:lightgray;
+}
